@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:untitled18/expense_model.dart'; // ExpenseModel sınıfını ekleyin
+import 'package:untitled18/expense_model.dart';
 
 class Item extends StatelessWidget {
-  final ExpenseModel expense; // ExpenseModel tipinde bir değişken
-  final VoidCallback onDelete; // Silme işlevi için bir geri çağırma fonksiyonu
+  final ExpenseModel expense; 
+  final VoidCallback onDelete; 
 
   const Item({
     Key? key,
-    required this.expense, // ExpenseModel alacak
-    required this.onDelete, // Silme işlevi
+    required this.expense, 
+    required this.onDelete,
   }) : super(key: key);
 
   @override
